@@ -1,0 +1,11 @@
+<odoo>
+    <record id="stock_transfer_category" model="ir.module.category">
+        <field name="name">Internal Transfer</field>
+    </record>
+
+    <record id="stock_transfer_manager_group" model="res.groups">
+        <field name="name">Can Create Internal Transfer</field>
+        <field name="category_id" ref="stock_warehouse_transfer.stock_transfer_category"/>
+    </record>
+
+</odoo>

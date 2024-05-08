@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+        <record id="stock_transfer_sequence" model="ir.sequence">
+            <field name="name">Stock Transfer seq.</field>
+            <field name="code">stock.transfer.seq</field>
+            <field name="prefix">WH/TR</field>
+            <field name="padding">5</field>
+        </record>
+    </data>
+</odoo>
